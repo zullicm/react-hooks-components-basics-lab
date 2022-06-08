@@ -16,6 +16,14 @@ function Home() {
   );
 }
 
+function About() {
+  return (
+    <div id="about">
+      <h2>About</h2>
+    </div>
+  );
+}
+
 {/* write an <About> component here */}
 
 
@@ -23,8 +31,8 @@ function App() {
   return (
     <div>
       <NavBar />
-      {/* add the <Home> component here */}
-      {/* add your <About> component here */}
+      <Home />
+      <About />
     </div>
   );
 }
